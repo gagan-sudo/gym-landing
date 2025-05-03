@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FitZone Gym - Modern fitness center with top-tier equipment and expert trainers">
+    <title>FitZone Gym</title>
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <img src="./images/GYM24 - logo.png" alt="GYM24-logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#reasons">Reasons</a></li>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+        </ul>
+        <div class="hamburger-menu" id="hamburger-menu" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Free trial session with a trainer</h1>
+                <a href="#contact" class="btn yellow">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Add this right after the </header> closing tag -->
+    <section class="reasons" id="reasons">
+        <div class="container">
+            <h2>Reasons to join</h2>
+
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <figure>
+                        <img src="./images/icon_line.png" title="area" />
+                    </figure>
+                    <div class="reason-card-description">
+                        <h3>15000 sq.m.</h3>
+                        <p>A spacious gym for sports – a safe distance between exercise machines</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <figure>
+                        <img src="./images/icon_ eqipment.png" title="area" />
+                    </figure>
+                    <div class="reason-card-description">
+                        <h3>More than 200 equipment</h3>
+                        <p>No queues at the simulators. Premium equipment from Lifestyle, Hammer Strength, Technogym.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <figure>
+                        <img src="./images/icon_ fitness zones.png" title="area" />
+                    </figure>
+                    <div class="reason-card-description">
+                        <h3>4 fitness zones</h3>
+                        <p>From aerobic to functional and cycle. Separate area for boxing and mixed martial arts</p>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <figure>
+                        <img src="./images/icon_time.png" title="area" />
+                    </figure>
+                    <div class="reason-card-description">
+                        <h3>Round-the-clock operation</h3>
+                        <p>The gym is open 24 hours a day, also works on all holidays and weekends</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="membership" id="membership">
+        <div class="container">
+          <h2>Gym Membership</h2>
+          
+          <div class="membership-grid">
+            <!-- Trial Pass -->
+            <div class="membership-card">
+              <div class="membership-header">
+                <h3>Pass 'Trial'</h3>
+                <p class="price">$0</p>
+              </div>
+              <ul class="benefits">
+                <li>Access to the gym from 8:00 to 14:00</li>
+                <li>The trainer on duty will introduce you to the gym</li>
+              </ul>
+              <button class="btn outline">Buy</button>
+            </div>
+            
+            <!-- Easy Start Pass -->
+            <div class="membership-card featured">
+              <div class="membership-header">
+                <h3>Pass 'Easy Start'</h3>
+                <p class="price">$119</p>
+              </div>
+              <ul class="benefits">
+                <li>Visit without restrictions 24/7</li>
+                <li>Individual training program</li>
+                <li>Access to the VTRAINER application</li>
+                <li>Trainer support</li>
+              </ul>
+              <button class="btn yellow">Buy</button>
+            </div>
+            
+            <!-- Free Time Pass -->
+            <div class="membership-card">
+              <div class="membership-header">
+                <h3>Pass 'Free Time'</h3>
+                <p class="price">$49</p>
+              </div>
+              <ul class="benefits">
+                <li>The entrance time to the gym is from 14:00 to 16:00</li>
+                <li>Without suspension of gym membership</li>
+                <li>The trainer on duty will introduce you to the gym</li>
+              </ul>
+              <button class="btn outline">Buy</button>
+            </div>
+            
+            <!-- 1 Month 24/7 Pass -->
+            <div class="membership-card">
+              <div class="membership-header">
+                <h3>Pass '1 Month 24/7'</h3>
+                <p class="price">$85</p>
+              </div>
+              <ul class="benefits">
+                <li>Visit without restrictions 24/7</li>
+                <li>The trainer on duty will introduce you to the gym</li>
+              </ul>
+              <button class="btn outline">Buy</button>
+            </div>
+            
+            <!-- In Shape (AM) Pass -->
+            <div class="membership-card">
+              <div class="membership-header">
+                <h3>Pass 'In Shape (AM)'</h3>
+                <p class="price">$165</p>
+              </div>
+              <ul class="benefits">
+                <li>Training in mini-groups until 14:00</li>
+                <li>Without suspension of gym membership</li>
+                <li>Classes with a trainer in a mini-group 3 times a week</li>
+                <li>Trainer support</li>
+              </ul>
+              <button class="btn outline">Buy</button>
+            </div>
+            
+            <!-- In Shape (PM) Pass -->
+            <div class="membership-card">
+              <div class="membership-header">
+                <h3>Pass 'In Shape (PM)'</h3>
+                <p class="price">$195</p>
+              </div>
+              <ul class="benefits">
+                <li>Training in mini-groups until 17:00</li>
+                <li>Without suspension of gym membership</li>
+                <li>Classes with a trainer in a mini-group 3 times a week</li>
+                <li>Trainer support</li>
+              </ul>
+              <button class="btn outline">Buy</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="about-us" id="about">
+        <div class="container">
+          <div class="about-content">
+
+             <!-- Text Content on Right -->
+             <div class="about-text">
+                <h2>About Us</h2>
+                <p>Gym24 is a leading fitness center located near Grushevka metro station, offering over 1500 sq. m of space dedicated to top-of-the-line workout equipment from leading brands such as Hammer Strength, Life Fitness, and Technogym.</p>
+                <p>With affordable membership options, Gym24 is accessible to everyone who wants to reach their fitness goals, whether it's building strength, increasing endurance, or losing weight.</p>
+                <p>Certified trainers at Gym24 provide expert guidance and support to develop personalized workout plans tailored to each individual's needs and goals.</p>
+              </div>
+
+            <!-- Image Slider on Left -->
+            <div class="about-slider">
+              <div class="slider-container">
+                <div class="slider-track">
+                  <div class="slide active">
+                    <img src="./images/scrole_first.png" alt="Gym interior view">
+                  </div>
+                  <div class="slide">
+                    <img src="./images/scrole_second.png" alt="Training area">
+                  </div>
+                  <div class="slide">
+                    <img src="./images/scrole_third.png" alt="Cardio equipment">
+                  </div>
+                  <div class="slide">
+                    <img src="./images/scrole_fourth.png" alt="Free weights area">
+                  </div>
+                </div>
+              </div>
+              <div class="slider-nav">
+                <button class="slider-prev" aria-label="Previous image">&#10094;</button>
+                <div class="slider-dots"></div>
+                <button class="slider-next" aria-label="Next image">&#10095;</button>
+              </div>
+            </div>
+            
+           
+          </div>
+        </div>
+      </section>
+
+      <section class="trainers" id="trainers">
+        <div class="container">
+          <h2>Trainers Staff</h2>
+          
+          <div class="trainers-grid">
+            <!-- Trainer 1 -->
+            <div class="trainer-card">
+              <div class="trainer-image">
+                <img src="./images/trainer1.png" alt="Victoria Shurpik">
+              </div>
+              <div class="trainer-info">
+                <h3>Victoria Shurpik</h3>
+                <p class="specialty">Fitness Coach</p>
+              </div>
+            </div>
+            
+            <!-- Trainer 2 -->
+            <div class="trainer-card">
+              <div class="trainer-image">
+                <img src="./images/trainer2.png" alt="Elizabeth Lawrhenko">
+              </div>
+              <div class="trainer-info">
+                <h3>Elizabeth Lawrhenko</h3>
+                <p class="specialty">Yoga Instructor</p>
+              </div>
+            </div>
+            
+            <!-- Trainer 3 -->
+            <div class="trainer-card">
+              <div class="trainer-image">
+                <img src="./images/trainer3.png" alt="Ivan Gladkikh">
+              </div>
+              <div class="trainer-info">
+                <h3>Ivan Gladkikh</h3>
+                <p class="specialty">Strength Coach</p>
+              </div>
+            </div>
+            
+            <!-- Trainer 4 -->
+            <div class="trainer-card">
+              <div class="trainer-image">
+                <img src="./images/trainer4.png" alt="Lyudmila Sabilo">
+              </div>
+              <div class="trainer-info">
+                <h3>Lyudmila Sabilo</h3>
+                <p class="specialty">Pilates Instructor</p>
+              </div>
+            </div>
+            
+            <!-- Trainer 5 -->
+            <div class="trainer-card">
+              <div class="trainer-image">
+                <img src="./images/trainer5.png" alt="Evgeny Gurkov">
+              </div>
+              <div class="trainer-info">
+                <h3>Evgeny Gurkov</h3>
+                <p class="specialty">CrossFit Coach</p>
+              </div>
+            </div>
+            
+            <!-- Trainer 6 -->
+            <div class="trainer-card">
+              <div class="trainer-image">
+                <img src="./images/trainer6.png" alt="Anatoly Prytvtsky">
+              </div>
+              <div class="trainer-info">
+                <h3>Anatoly Prytvtsky</h3>
+                <p class="specialty">Boxing Trainer</p>
+              </div>
+            </div>
+            
+            <!-- Trainer 7 -->
+            <div class="trainer-card">
+              <div class="trainer-image">
+                <img src="./images/trainer7.png" alt="Victor Ludkovich">
+              </div>
+              <div class="trainer-info">
+                <h3>Victor Ludkovich</h3>
+                <p class="specialty">Functional Trainer</p>
+              </div>
+            </div>
+            
+            <!-- Trainer 8 -->
+            <div class="trainer-card">
+              <div class="trainer-image">
+                <img src="./images/trainer8.png" alt="Maria Masyak">
+              </div>
+              <div class="trainer-info">
+                <h3>Maria Masyak</h3>
+                <p class="specialty">Dance Fitness</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="main-footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-brand">
+              <div class="logo">
+                <img src="./images/GYM24 - logo.png" alt="GYM24 Logo">
+              </div>
+              <p class="tagline">Build strength and confidence at our gym with state-of-the-art equipment, personalized training, and a motivating community</p>
+            </div>
+            
+            <div class="footer-info">
+              <div class="footer-section">
+                <h3>Address</h3>
+                <address>
+                  Republic of Belarus<br>
+                  Minsk city<br>
+                  Dzerzhinsky Avenue 15
+                </address>
+              </div>
+              
+              <div class="footer-section">
+                <h3>Contact</h3>
+                <p>+375(44)-777-24-12</p>
+                <p>gym24@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="footer-bottom">
+            <p>&copy; 2025 GYM24. All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
